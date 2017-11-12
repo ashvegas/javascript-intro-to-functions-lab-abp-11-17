@@ -1,3 +1,5 @@
+let string = 'Hello'
+
 function shout(string) {
   return string.toUpperCase()
 }
@@ -7,6 +9,6 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  console.log(`$string`)
+  console.log()
   return string.toUpperCase()
 }
